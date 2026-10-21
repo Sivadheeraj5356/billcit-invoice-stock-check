@@ -1,0 +1,14 @@
+{
+  "name": "billcit-invoice-stock-check",
+  "version": "1.0.0",
+  "description": "Invoice and stock consistency checks for Indian shop billing workflows",
+  "private": false,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/shop-day.json"
+  },
+  "keywords": ["billing", "inventory", "gst", "node", "small-business"],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
