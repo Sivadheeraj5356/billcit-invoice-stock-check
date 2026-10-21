@@ -1,0 +1,21 @@
+{
+  "shop": { "id": "synthetic-shop" },
+  "date": "2026-10-21",
+  "openingStock": { "rice-5kg": 10, "oil-1l": 8 },
+  "invoices": [
+    {
+      "id": "INV-001",
+      "taxCategory": "local",
+      "items": [
+        { "sku": "rice-5kg", "quantity": 1, "unitPrice": 425 },
+        { "sku": "oil-1l", "quantity": 2, "unitPrice": 150 }
+      ],
+      "total": 725,
+      "paid": 725
+    }
+  ],
+  "stockMoves": [
+    { "sku": "rice-5kg", "quantity": 1, "invoiceId": "INV-001" },
+    { "sku": "oil-1l", "quantity": 2, "invoiceId": "INV-001" }
+  ]
+}
